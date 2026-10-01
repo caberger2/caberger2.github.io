@@ -4,4 +4,4 @@ title: Publications
 permalink: /publications/
 ---
 
-{% raw %}{% bibliography %}{% endraw %}
+{% bibliography %}
