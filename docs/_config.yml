@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cory A. Berger, Ph.D.
+title: Cory A. Berger
 email: cberger@ucsb.edu
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -35,6 +35,7 @@ plugins:
 scholar:
   style: apa
   source: /_bibliography
+  bibliography_template: "{{ reference | replace_first: 'Berger, C. A.', '<b>Berger, C. A.</b>' }}"
   bibliography: publications.bib
   sort_by: year
   order: descending
