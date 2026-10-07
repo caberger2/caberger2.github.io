@@ -36,7 +36,12 @@ plugins:
 scholar:
   style: apa
   source: /_bibliography
-  bibliography_template: "{{ reference | replace_first: 'Berger, C. A.', '<b>Berger, C. A.</b>' | replace_first: 'Berger, C.', '<b>Berger, C.</b>' | replace_first: 'Berger*, C. A.', '<b>Berger*, C. A.</b>' }}" 
+  bibliography_template: "{{ reference
+    | replace_first: 'BergerCFSTAR, C. A.', '<b>BergerCFSTAR, C. A.</b>'
+    | replace_first: 'Berger, C. A.', '<b>Berger, C. A.</b>'
+    | replace_first: 'Berger, C.', '<b>Berger, C.</b>'
+    | replace: 'CFSTAR', '<sup>*</sup>'
+    | replace: 'UGSTAR', '<sup>**</sup>' }}" 
   bibliography: publications.bib
   sort_by: year
   order: descending
