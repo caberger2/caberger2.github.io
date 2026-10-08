@@ -5,50 +5,40 @@ permalink: /research/
 ---
 
 <style>
-  .profile {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-  }
-  .profile img {
-    width: 100%;
+  .research-img {
+    width: 35%;
     max-width: 100%;
     border-radius: 8px;
+    margin-bottom: 1rem;
   }
-  @media (max-width: 400px) {
-    .profile { flex-direction: column; align-items: right; }
-  }
-</style>
+  .research-img.right { float: right; margin-left: 1.5rem; }
+  .research-img.left  { float: left;  margin-right: 1.5rem; }
+  .clearfix { clear: both; }
 
-<div class="profile" markdown="1">
-  <img src="{{ '/assets/images/jelly3.jpg' | relative_url }}" alt="A hydrozoan under a microscope">
-  <div markdown="1">
-  
-
-My primary resarch interest is the evolution and properties of circadian clocks, which are found in most organisms and influence most aspects of physiology, metabolism, and behavior. This has profound consequences because it means that organismal responses to environemntal variation are shaped by (potentially quite complex) interactions between external factors (light, temperature, etc.) and internal rhythms. Circadian biology is highly relevant to human health (because circadian disruptions are linked to all sorts of metabolic, cardiovascular, and psychological problems) and to the effects of climate change on natural ecosystems (because light pollution, global warming, and other human impacts are changing temporal patterns of environmental variation). 
-
-<style>
-  .profile {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-  }
-  .profile img {
-    width: 100%;
-    max-width: 100%;
-    border-radius: 8px;
-  }
   @media (max-width: 700px) {
-    .profile { flex-direction: column; align-items: center; }
+    .research-img.right,
+    .research-img.left {
+      float: none;
+      display: block;
+      width: 100%;
+      margin: 0 auto 1rem;
+    }
   }
 </style>
 
-<div class="profile" markdown="1">
-  <img src="{{ '/assets/images/stauro1.jpg' | relative_url }}" alt="A staurozoan under a microscope">
-  <div markdown="1">
+<img class="research-img right" src="{{ '/assets/images/jelly3.jpg' | relative_url }}" alt="A hydrozoan under a microscope">
 
-  
-I am interested in how circadian clocks operate and evolve outside of the handful of well-studied model systems that have been the focus of most circadian research. In particular, cnidarians are an important and under-utilized study system in circadian biology because 1) their evolutionary position is key to understanding how clocks first arose and subsequently diversified in animals; and 2) their simple body plans and lack of a central nervous system make it is easier to study the physiological principles of circadian rhythms. 
+My primary research interest is the evolution and properties of circadian clocks, which are found in most organisms and influence most aspects of physiology, metabolism, and behavior. This has profound consequences because it means that organismal responses to environmental variation are shaped by (potentially quite complex) interactions between external factors (light, temperature, etc.) and internal rhythms. Circadian biology is highly relevant to human health (because circadian disruptions are linked to all sorts of metabolic, cardiovascular, and psychological problems) and to the effects of climate change on natural ecosystems (because light pollution, global warming, and other human impacts are changing temporal patterns of environmental variation).
+
+
+<div class="clearfix"></div>
+
+<img class="research-img left" src="{{ '/assets/images/stauro1.jpg' | relative_url }}" alt="A staurozoan under a microscope">
+
+I am interested in how circadian clocks operate and evolve outside of the handful of well-studied model systems that have been the focus of most circadian research. In particular, cnidarians are an important and under-utilized study system in circadian biology because 1) their evolutionary position is key to understanding how clocks first arose and subsequently diversified in animals; and 2) their simple body plans and lack of a central nervous system make it easier to study the physiological principles of circadian rhythms.
+
+<div class="clearfix"></div>
+
 
 
 ## Current projects
