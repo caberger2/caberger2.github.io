@@ -44,7 +44,7 @@ scholar:
     | replace: 'UGSTAR', '<sup>**</sup>' }}" 
   bibliography: publications.bib
   sort_by: year
-  order: ascending
+  order: descending
 
 # Exclude from processing.
 # The following items will not be processed, by default.
