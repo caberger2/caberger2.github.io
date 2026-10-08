@@ -26,14 +26,14 @@ permalink: /research/
   }
 </style>
 
-<img class="research-img right" src="{{ '/assets/images/jelly3.jpg' | relative_url }}" alt="A hydrozoan under a microscope">
+<img class="research-img right" src="{{ '/assets/images/stauro1.jpg' | relative_url }}" alt="A hydrozoan under a microscope">
 
 My primary research interest is the evolution and properties of circadian clocks, which are found in most organisms and influence most aspects of physiology, metabolism, and behavior. This has profound consequences because it means that organismal responses to environmental variation are shaped by (potentially quite complex) interactions between external factors (light, temperature, etc.) and internal rhythms. Circadian biology is highly relevant to human health (because circadian disruptions are linked to all sorts of metabolic, cardiovascular, and psychological problems) and to the effects of climate change on natural ecosystems (because light pollution, global warming, and other human impacts are changing temporal patterns of environmental variation).
 
 
 <div class="clearfix"></div>
 
-<img class="research-img left" src="{{ '/assets/images/stauro1.jpg' | relative_url }}" alt="A staurozoan under a microscope">
+<img class="research-img left" src="{{ '/assets/images/jelly3.jpg' | relative_url }}" alt="A staurozoan under a microscope">
 
 I am interested in how circadian clocks operate and evolve outside of the handful of well-studied model systems that have been the focus of most circadian research. In particular, cnidarians are an important and under-utilized study system in circadian biology because 1) their evolutionary position is key to understanding how clocks first arose and subsequently diversified in animals; and 2) their simple body plans and lack of a central nervous system make it easier to study the physiological principles of circadian rhythms.
 
